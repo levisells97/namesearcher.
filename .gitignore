@@ -1,2 +1,5 @@
 *.pyc
 *.class
+name = requestString("what is your name?")
+web = requestString("Is it .org, .com, or .net?")
+print name + web
